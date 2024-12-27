@@ -8,8 +8,7 @@ pipeline {
         }
         stage('Build') { 
             steps {
-                sh 'printenv' 
-                sh 'pwd'
+                sh 'printenv'
                 echo '$PATH'
                 sh 'which npm'
                 sh 'ls -al'
